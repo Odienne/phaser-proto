@@ -36,7 +36,11 @@ const config = {
         MenuScene,
         HudScene,
         GameOverScene
-    ]
+    ],
+    fps: {
+        target: 30,     // 🎯 Limit FPS to 30
+        forceSetTimeOut: true  // ⏳ Optional: use setTimeout instead of RAF for more accurate control
+    }
 };
 
 new Game(config);
