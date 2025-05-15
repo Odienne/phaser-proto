@@ -1,8 +1,6 @@
-# Phaser's Revenge
+# Coin Clicker
 
-Phaser's Revenge is an adaptation of the classic game Space Invaders.
-
-Your mission is to shoot the enemy ship and dodge its attacks to score as many points as possible in a short amount of time.
+This is a simple coin clicker game. The goal is to click the coin as many times as possible in the time limit.
 
 ## Instructions
 
