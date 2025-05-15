@@ -28,7 +28,11 @@ const config = {
         MainMenu,
         ClickerGame,
         GameOver
-    ]
+    ],
+    fps: {
+        target: 30,     // 🎯 Limit FPS to 30
+        forceSetTimeOut: true  // ⏳ Optional: use setTimeout instead of RAF for more accurate control
+    }
 };
 
 export default new Game(config);
